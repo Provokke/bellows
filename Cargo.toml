@@ -1,0 +1,12 @@
+[package]
+name = "bellows"
+version = "0.1.0"
+edition = "2021"
+description = "Bounded SPSC and MPMC ring-buffer channels using only std"
+license = "MIT"
+
+[dependencies]
+
+[profile.release]
+lto = true
+codegen-units = 1
