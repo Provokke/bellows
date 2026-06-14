@@ -73,4 +73,3 @@ fn send_timeout_error_helpers() {
     assert_eq!(timeout.into_inner(), "x");
     assert!(!SendTimeoutError::Disconnected("y").is_timeout());
 }
-

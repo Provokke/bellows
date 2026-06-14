@@ -426,4 +426,3 @@ fn stress_ping_pong() {
     drop(to_b);
     echo.join().unwrap();
 }
-

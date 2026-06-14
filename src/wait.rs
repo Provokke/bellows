@@ -95,4 +95,3 @@ pub fn ring_capacity(requested: usize, minimum: usize) -> usize {
         .filter(|c| *c <= usize::MAX / 4)
         .expect("channel capacity is too large")
 }
-
